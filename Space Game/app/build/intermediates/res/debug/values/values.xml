@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/E:/Development/Android/Projects/app/src/main/res/values/spinner_resources.xml -->
+    <eat-comment/>
+    <string-array name="asteroids_array">
+        <item>Red</item>
+        <item>Pink</item>
+        <item>Orange</item>
+        <item>Yellow</item>
+        <item>Green</item>
+        <item>Blue</item>
+        <item>Purple</item>
+        <item>Grey</item>
+    </string-array>
+    <string-array name="icons">
+        <item>@drawable/asteroid_red</item>
+        <item>@drawable/asteroid_pink</item>
+        <item>@drawable/asteroid_orange</item>
+        <item>@drawable/asteroid_yellow</item>
+        <item>@drawable/asteroid_green</item>
+        <item>@drawable/asteroid_blue</item>
+        <item>@drawable/asteroid_purple</item>
+        <item>@drawable/asteroid_grey</item>
+    </string-array>
+    <!-- From: file:/E:/Development/Android/Projects/app/src/main/res/values/colours.xml -->
+    <eat-comment/>
+    <color name="transparent">#00000000</color>
+    <color name="white">#FFFFFF</color>
+    <!-- From: file:/E:/Development/Android/Projects/app/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- From: file:/E:/Development/Android/Projects/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">Space Game</string>
+    <string name="content_description">Display for asteroid selection</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="open_highscores">High Scores</string>
+    <string name="open_options">Options</string>
+    <string name="start_game">Start</string>
+    <!-- From: file:/E:/Development/Android/Projects/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+</resources>

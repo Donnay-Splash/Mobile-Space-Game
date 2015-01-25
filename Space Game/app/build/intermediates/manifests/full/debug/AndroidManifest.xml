@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bouncesurface"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/asteroid_red"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.controller.MainActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.controller.GameActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="Game Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.controller.HighScoreActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="High Scores"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.controller.OptionsActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="Options"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

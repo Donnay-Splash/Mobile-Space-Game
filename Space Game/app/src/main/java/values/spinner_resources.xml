@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="asteroids_array">
+        <item>Red</item>
+        <item>Pink</item>
+        <item>Orange</item>
+        <item>Yellow</item>
+        <item>Green</item>
+        <item>Blue</item>
+        <item>Purple</item>
+        <item>Grey</item>
+    </string-array>
+    <string-array name="icons">
+        <item>@drawable/asteroid_red</item>
+        <item>@drawable/asteroid_pink</item>
+        <item>@drawable/asteroid_orange</item>
+        <item>@drawable/asteroid_yellow</item>
+        <item>@drawable/asteroid_green</item>
+        <item>@drawable/asteroid_blue</item>
+        <item>@drawable/asteroid_purple</item>
+        <item>@drawable/asteroid_grey</item>
+    </string-array>
+</resources>
